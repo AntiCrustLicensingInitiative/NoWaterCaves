@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.martmists.nowatercaves.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "WaterCaveMixin"
+  ],
+  "server": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
