@@ -3,9 +3,7 @@
   "package": "com.martmists.nowatercaves.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-    "WaterCaveMixin"
-  ],
-  "server": [
+    "UnderwaterCaveCarverMixin"
   ],
   "injectors": {
     "defaultRequire": 1

@@ -2,25 +2,22 @@
   "schemaVersion": 1,
   "id": "nowatercaves",
   "version": "${version}",
-  "name": "NoWaterCaves",
+  "name": "No Water Caves",
   "description": "A mod that disables Water Caves from spawning.",
   "authors": [
-    "Martmists"
+    "Martmists",
+    "AntiCrustLicensingInitiative"
   ],
   "contact": {
-    "sources": "https://dilaton.martmists.com/Martmists/NoWaterCaves"
+    "sources": "https://github.com/AntiCrustLicensingInitiative/NoWaterCaves"
   },
-  "license": "MIT",
+  "license": "LGPL-3.0-or-later",
   "icon": "assets/essentials/icon.png",
-  "environment": "server",
-  "entrypoints": {
-  },
+  "environment": "*",
   "mixins": [
-    "nwc.mixins.json"
+    "nowatercaves.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.4.0"
-  },
-  "requires": {
   }
 }
